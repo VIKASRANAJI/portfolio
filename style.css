@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 :root {
-  --lighting-color: #0089b7;
+  --lighting-color:green;
   --dark-color: #003d62;
   --darker-color: #003251;
   --secondary-color: #fff700;
@@ -75,7 +75,8 @@ nav li:hover {
 #hero {
   background: var(--dark-color);
   padding: 4rem 0;
-  border-bottom: 4px solid var(--lighting-color);
+  /* border-bottom: 4px solid var(--lighting-color); */
+  border-bottom: 4px solid aqua;
   max-height: 100vh;
 }
 #hero .container {
@@ -126,7 +127,7 @@ nav li:hover {
     border-color: transparent;
   }
   50% {
-    border-color: orange;
+    border-color: red;
   }
 }
 
@@ -134,6 +135,8 @@ nav li:hover {
 
 #project {
   background: var(--darker-color);
+  /* border-bottom: 4px solid var(--lighting-color); */
+  border-bottom: 4px solid aqua;
 }
 
 #project h2 {
@@ -153,6 +156,7 @@ nav li:hover {
 
 .card {
   width: 320px;
+  
   display: flex;
   flex-direction: column;
   border-radius: 0.5rem;
@@ -189,6 +193,7 @@ nav li:hover {
 /* Contact Section */
 #contact {
   background: var(--dark-color);
+  border-bottom: 4px solid aqua;
 }
 
 #contact h2 {
